@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IceCream'
-  s.version          = '1.13.2'
+  s.version          = '1.13.1-1'
   s.summary          = 'Sync Realm with CloudKit'
   s.description      = <<-DESC
   Sync Realm Database with CloudKit, written in Swift. It works just like magic.
@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
 
   s.social_media_url = 'https://twitter.com/caiyue5'
 
-  s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.12'
-  s.tvos.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.15'
+  s.tvos.deployment_target = '11.0'
   s.watchos.deployment_target = '3.0'
   s.source_files = ["IceCream/Classes/**/*","IceCream/IceCream.h"]
   s.public_header_files = ["IceCream/IceCream.h"]
