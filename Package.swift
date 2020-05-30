@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/realm/realm-cocoa", 
-            from: "4.1.1"
+            from: "5.0.1"
         )
     ],
     targets: [
